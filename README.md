@@ -3,9 +3,7 @@
 This is a page that serves as a checklist for apps.
 
 
-## Monitoring
-
-- [ ] Use a crash reporting tool
+- [Monitoring](/categories/monitoring.md)
 
 ## User Feedback
 
