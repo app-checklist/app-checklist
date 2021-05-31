@@ -1,4 +1,4 @@
-# Communication & User Feedback
+# User Feedback
 
 - [ ] Ask user to leave a review in the app stores
    - [ ] Android: [Google Play In-App Review](https://developer.android.com/guide/playcore/in-app-review)
