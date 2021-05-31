@@ -2,8 +2,6 @@
 
 This is a page that serves as a checklist for apps.
 
-
-- [Monitoring](/categories/monitoring.md)
-- [User Feedback](/categories/communication.md)
+- [Expected features](/categories/expected_features/index.md)
 - [File size](/categories/file-size.md)
 - [Release Process](/categories/release.md)
