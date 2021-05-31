@@ -9,3 +9,4 @@ you'll have to consider the following expected features:
 - [License Screen](licenses.md)
 - [Imprint](imprint.md)
 - [Privacy Policy](privacy_policy.md)
+- [ ] Show version number in "about app" screen
