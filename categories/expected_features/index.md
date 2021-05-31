@@ -7,3 +7,5 @@ you'll have to consider the following expected features:
 - [User Feedback](user_feedback.md)
 - [Monitoring](monitoring.md)
 - [License Screen](licenses.md)
+- [Imprint](imprint.md)
+- [Privacy Policy](privacy_policy.md)
