@@ -2,8 +2,13 @@
 
 ## Getting started
 
-- Clone repo with submodules
-- Install [Hugo](https://gohugo.io/getting-started/quick-start/)
-    - Make sure you're using Hugo Extended if you're not on macOS
-- Run `hugo serve -D`
-- The local serve is now running at `http://localhost:1313/`
+- Install [yarn](https://yarnpkg.com/getting-started)
+- Read [Nextra - Getting Started](https://nextra.vercel.app/docs/get-started)
+- Read [next.js - Getting Started](https://nextjs.org/docs/getting-started)
+- Run `yarn install`
+- Run `yarn next dev -p 4000`
+- The local serve is now running at `http://localhost:4000/`
+
+## Additional Links
+
+- [next.js Static HTML Export](https://nextjs.org/docs/advanced-features/static-html-export)

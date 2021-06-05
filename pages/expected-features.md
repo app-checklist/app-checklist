@@ -1,6 +1,5 @@
----
-title: "Expected features"
----
+# Expected features
+
 
 There are a lot of things to consider while building an app.
 Besides the main feature of your app,
