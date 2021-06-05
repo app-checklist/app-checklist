@@ -1,7 +1,9 @@
-# App Checklist (WIP)
+# [app-checklist.dev](https://app-checklist.dev)
 
-This is a page that serves as a checklist for apps.
+## Getting started
 
-- [Expected features](/categories/expected_features/index.md)
-- [File size](/categories/file-size.md)
-- [Release Process](/categories/release.md)
+- Clone repo with submodules
+- Install [Hugo](https://gohugo.io/getting-started/quick-start/)
+    - Make sure you're using Hugo Extended if you're not on macOS
+- Run `hugo serve -D`
+- The local serve is now running at `http://localhost:1313/`
