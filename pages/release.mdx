@@ -1,4 +1,5 @@
 import Callout from 'nextra-theme-docs/callout'
+import Demo from '../components/Demo'
 
 # 🚀 Release Process
 
@@ -10,3 +11,8 @@ import Callout from 'nextra-theme-docs/callout'
 <Callout emoji="⚠️">
   These are things you'll need to consider before going live with your app, because they're really hard to add later on.
 </Callout>
+<Demo>
+  For some reason this components needs a child node.
+  This is likely a bug here:
+  https://github.com/shuding/nextra/blob/core/packages/nextra-theme-docs/src/index.js#L191
+</Demo>
