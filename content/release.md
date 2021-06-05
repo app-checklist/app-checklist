@@ -1,4 +1,4 @@
-# Release Process
+# Release Process 🚀
 
 - [ ] Use staged rollouts
 - [ ] Use feature toggles

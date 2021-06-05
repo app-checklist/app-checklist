@@ -1,3 +1,0 @@
-# Imprint
-
-- [ ] Add an imprint
