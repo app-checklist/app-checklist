@@ -17,7 +17,7 @@ It does not take us much space on the user smartphone.
 
 ## iOS
 
-- [x] Strip debug symbols
+- [ ] Strip debug symbols
 - [ ] use resolution aware images
 - [ ] use vector images
 - [ ] bit code

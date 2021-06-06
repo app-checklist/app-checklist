@@ -21,3 +21,4 @@ you'll have to consider the following expected features:
     - Even though not every app collects user data it's a good practice to include a privacy policy to state this.
     - Google Play and Apples App Store require you to have this.
 - [ ] Show version number in "about app" screen
+- [ ] Provide an easy to use option to let the user share this app with other users.

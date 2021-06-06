@@ -1,7 +1,9 @@
 {
-    "index": "App Checklist",
-    "expected-features": "Expected Features",
-    "file-size": "📦 File Size Optimization",
-    "release": "🚀 Release",
-    "about": "About"
-  }
+  "index": "App Checklist",
+  "expected-features": "Expected Features",
+  "file-size": "📦 File Size Optimization",
+  "dependencies": "📦 Dependencies",
+  "release": "🚀 Release",
+  "features": "Features",
+  "about": "About"
+}
