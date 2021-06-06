@@ -6,7 +6,7 @@
 - Read [Nextra - Getting Started](https://nextra.vercel.app/docs/get-started)
 - Read [next.js - Getting Started](https://nextjs.org/docs/getting-started)
 - Run `yarn install`
-- Run `yarn dev -p 4000`
+- Run `yarn next dev -p 4000`
 - The local serve is now running at `http://localhost:4000/`
 
 ## Additional Links

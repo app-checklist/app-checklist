@@ -10,7 +10,13 @@ export default {
   footer: true, // footer also toggles nextLinks & prevLinks, footerText & footerEditOnGitHubLink
   nextLinks: true,
   prevLinks: true,
-  footerText: `${new Date().getFullYear()} © Jonas Uekötter`,
+  footerText: (
+    <>
+      <span>{new Date().getFullYear()} © Jonas Uekötter</span>
+      <br/>
+      <a href="https://github.com/app-checklist/app-checklist/discussions/categories/feedback">Give Feedback</a>
+    </>
+  ),
   footerEditOnGitHubLink: true,
   logo: (
     <>
