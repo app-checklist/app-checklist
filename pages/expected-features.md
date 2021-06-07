@@ -22,3 +22,5 @@ you'll have to consider the following expected features:
     - Google Play and Apples App Store require you to have this.
 - [ ] Show version number in "about app" screen
 - [ ] Provide an easy to use option to let the user share this app with other users.
+- [ ] Use the localization mechanism. 
+    - This makes it easier to change texts your app even if you're not planning on shipping it for multiple languages
