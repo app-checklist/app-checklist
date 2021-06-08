@@ -18,3 +18,12 @@ Further reading can be found here:
 
 In order to make my and your life easier I present you this page, which contains 
 some handy checklists for apps.
+
+## Who should read this?
+
+This page is intended for curious product manager and developers. It is not that technical so most people should understand it. 
+I'll try my best to describe  things and to link to helpful ressources in order to make it understandable for everyone.
+
+# What is this not?
+
+This is not a ressource to get help for programming.
