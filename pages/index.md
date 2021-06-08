@@ -23,6 +23,7 @@ some handy checklists for apps.
 
 This page is intended for curious product manager and developers. It is not that technical so most people should understand it. 
 I'll try my best to describe  things and to link to helpful ressources in order to make it understandable for everyone.
+This page helps you to understand the requirements and challenges of mobile applications.
 
 ## What is this not?
 
