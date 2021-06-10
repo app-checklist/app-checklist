@@ -1,9 +1,12 @@
 {
-  "index": "App Checklist",
-  "expected-features": "Expected Features",
+  "index": "📱 App Checklist",
   "file-size": "📦 File Size Optimization",
   "dependencies": "📦 Dependencies",
-  "release": "🚀 Release",
+  "release": "🚀 Release Process",
+  "expected-features": "Expected Features",
   "features": "Features",
-  "about": "About"
+  "additional-considerations":"💫 Additional Considerations",
+  "aso": "🏪 App Store Optimization",
+  "further-reading": "📚📖 Further Reading",
+  "about": "ℹ️ About"
 }
