@@ -12,7 +12,7 @@ export default {
   prevLinks: true,
   footerText: (
     <>
-      <span>{new Date().getFullYear()} © Jonas Uekötter</span>
+      <span>{new Date().getFullYear()} © Jonas Uekötter. Follow on <a href="https://twitter.com/ue_man">Twitter</a></span>
       <br/>
       <a href="https://github.com/app-checklist/app-checklist/discussions/categories/feedback">Give Feedback</a>
     </>

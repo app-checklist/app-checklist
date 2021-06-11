@@ -1,12 +1,13 @@
 {
   "index": "📱 App Checklist",
-  "file-size": "📦 File Size Optimization",
-  "dependencies": "📦 Dependencies",
-  "release": "🚀 Release Process",
   "expected-features": "Expected Features",
   "features": "Features",
-  "additional-considerations":"💫 Additional Considerations",
+  "dependencies": "📦 Dependencies",
+  "release": "🚀 Release Process",
+  "file-size": "📦 File Size Optimization",
   "aso": "🏪 App Store Optimization",
+  "access-to-as": "Giving and getting access to stores",
+  "additional-considerations":"💫 Additional Considerations",
   "further-reading": "📚📖 Further Reading",
   "about": "ℹ️ About"
 }
