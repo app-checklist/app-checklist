@@ -1,6 +1,6 @@
 # About
 
-This page is created by Jonas Uekötter.
+This page was created by Jonas Uekötter.
 
 <img width="200" height="auto" src="/jonas.svg"/>
 
