@@ -12,3 +12,4 @@
 ## Additional Links
 
 - [next.js Static HTML Export](https://nextjs.org/docs/advanced-features/static-html-export)
+- [Tailwind CSS](https://tailwindcss.com/)
