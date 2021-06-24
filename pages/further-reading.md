@@ -1,4 +1,4 @@
-# 📚📖 Further reading
+# 📚 Further reading
 
 This is a collection of some interesting readings about mobile applications.
 
