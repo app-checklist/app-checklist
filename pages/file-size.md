@@ -1,4 +1,4 @@
-# 📦 File size Optimization
+# 📏 File size Optimization
 
 # Why?
 
