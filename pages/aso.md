@@ -1,6 +1,11 @@
-# App Store Optimization
+import CheckList from '../components/CheckList'
+import Checkbox from '../components/Checkbox'
+import Callout from 'nextra-theme-docs/callout'
 
-- [ ] Run A/B tests on your store store page
-- Monitor your ratings and reviews
-    - [ ] automatically flag spam reviews
-    - [ ] automatically flag inappropriate reviews
+# 🏪 App Store Optimization
+
+<CheckList>
+    <Checkbox title="Run A/B tests on your store store page" cb_id="a_b_tests"/>
+    <Checkbox title="Automatically flag spam reviews" cb_id="spam"/>
+    <Checkbox title="Automatically flag inappropriate reviews" cb_id="reviews"/>
+</CheckList>

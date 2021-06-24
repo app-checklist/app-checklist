@@ -1,6 +1,6 @@
-# App Checklist 
+# App Checklist 📱 ✅
 
-Mobile application developer face multiple challenges while building 
+Mobile application developer face various challenges while building 
 mobile applications.
 
 - Apps are installed on user devices. No Docker for us and instead we have test our app on a magnitude of devices.
@@ -11,13 +11,14 @@ mobile applications.
 - App Stores don't allow to roll back versions
 
 That's just some of the challenges.
-Further reading can be found here:
-- [Real Challenges in Mobile App Development](https://doi.org/10.1109/ESEM.2013.9)
-- [Continuous Deployment of Mobile Software at Facebook](https://research.fb.com/publications/continuous-deployment-of-mobile-software-at-facebook/)
-- [10 Engineering Challenges Due to the Nature of Mobile Applications](https://blog.pragmaticengineer.com/10-engineering-challenges-due-to-the-nature-of-mobile-applications/)
+Further reading can be found [here](/further-reading).
 
 In order to make my and your life easier I present you this page, which contains 
 some handy checklists for apps.
+
+## Content
+
+<ContentRenderer/>
 
 ## Who should read this?
 
@@ -28,3 +29,40 @@ This page helps you to understand the requirements and challenges of mobile appl
 ## What is this not?
 
 This is not a ressource to get help for programming.
+
+{/* ======================================================================== */}
+
+import fs from 'fs'
+import path from 'path'
+import { useSSG } from 'nextra/ssg'
+
+export const getStaticProps = ({ params }) => {
+  const metaJsonPath = path.join(process.cwd(), 'pages/meta.json');
+  const metaJsonFile = fs.readFileSync(metaJsonPath);
+  const metaJson = JSON.parse(metaJsonFile);
+  
+  return {
+    props: {
+      ssg: { 
+        toc: metaJson 
+      }
+    }
+  }
+}
+
+export const ContentRenderer = () => {
+  // And later we can get it inside MDX.
+  const { toc } = useSSG();
+  return <div class="horizontal-align">
+    <br/>
+    <div class="grid-container">
+      {Object.entries(toc).slice(1).slice(0, -1).map((entry) => (
+        <a key={entry[0]} href={entry[0]}>
+          <div class="grid-item rounded-lg">
+            <strong>{entry[1]}</strong>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+}

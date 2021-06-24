@@ -1,26 +1,25 @@
+import CheckList from '../components/CheckList'
+import Checkbox from '../components/Checkbox'
 import Callout from 'nextra-theme-docs/callout'
 
 # 🚀 Release Process
 
-<Callout emoji="⚠️">
-  These are things you'll need to consider before going live with your app, because they're really hard to add later on.
-</Callout>
+These are things you'll need to consider before going live with your app, because they're really hard to add later on.
 
-- [ ] Start deploying you app at least to a beta channel of the store when starting your development.
+<CheckList>
+    <Checkbox title="Start deploying you app at least to a beta channel of the store when starting your development" cb_id="start_fast">
+    - This ensures that there aren't any nasty surprises when you want to go live
+    - Depending on what your app is supposed to do, the store reviews can be pretty rough. It's best to know this as soon as possible.
+    - Third party packages can contain undisclosed unwanted permissions
+    </Checkbox>
+    <Checkbox title="Use staged rollouts" cb_id="staged_rollouts"/>
+    <Checkbox title="Use feature toggles" cb_id="feature_toggles">
 
-<details>
-  <summary>Further details</summary>
-
-- This ensures that there aren't any nasty surprises when you want to go live
-- Depending on what your app is supposed to do, the store reviews can be pretty rough. It's best to know this as soon as possible.
-- Third party packages can contain undisclosed unwanted permissions
-
-</details>
-
-- [ ] Use staged rollouts
-- [ ] Use feature toggles
-    - For example [Unleash](https://www.getunleash.io/)
-- [ ] Use test channels to beta test the app
-- [ ] Have the ability to force user to update.
-- [ ] Have a way to force app upgrades.
-    - You want this in case your app talks to a web server. It's a great help to speed up the deprecation of old API versions.
+      For example [Unleash](https://www.getunleash.io/)
+      
+    </Checkbox>
+    <Checkbox title="Use test channels to beta test the app" cb_id="beta_test"/>
+    <Checkbox title="Have the ability to force user to update" cb_id="force_updates">
+    You want this in case your app talks to a web server. It's a great help to speed up the deprecation of old API versions.
+    </Checkbox>
+</CheckList>

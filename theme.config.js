@@ -13,14 +13,14 @@ export default {
   footerText: (
     <>
       <span>{new Date().getFullYear()} © Jonas Uekötter. Follow on <a href="https://twitter.com/ue_man">Twitter</a></span>
-      <br/>
-      <a href="https://github.com/app-checklist/app-checklist/discussions/categories/feedback">Give Feedback</a>
+      
+      <p><a href="https://github.com/app-checklist/app-checklist/discussions/categories/feedback">Give Feedback</a></p>
     </>
   ),
   footerEditOnGitHubLink: true,
   logo: (
     <>
-      <span className="mr-2 font-extrabold hidden md:inline">App Checklist 📱 ✅</span>
+      <span className="mr-2 text-2xl font-extrabold hidden md:inline">App Checklist 📱 ✅</span>
     </>
   ),
   head: (

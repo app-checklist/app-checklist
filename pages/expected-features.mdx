@@ -1,0 +1,47 @@
+import CheckList from '../components/CheckList'
+import Checkbox from '../components/Checkbox'
+import Callout from 'nextra-theme-docs/callout'
+
+# Expected features
+
+There are a lot of things to consider while building an app.
+Besides the main feature of your app,
+you'll have to consider the following expected features:
+
+<CheckList>
+    <Checkbox title="Ask user to leave a review in the app stores" cb_id="review">
+            - Android: [Google Play In-App Review](https://developer.android.com/guide/playcore/in-app-review)
+            - iOS: [StoreReviewController](https://developer.apple.com/documentation/storekit/skstorereviewcontroller/)
+    </Checkbox>
+
+    <Checkbox title="Provide an optional feedback channel to avoid bad reviews" cb_id="review_channel"/>
+            
+
+    <Checkbox title="Provide an official support website" cb_id="support_website"/>
+
+    <Checkbox title="Use a crash monitoring system" cb_id="crash_monitoring">
+        <Callout emoji="⚠️">
+            A crash monitoring system helps you to know if there's something wrong.
+            Some examples for such systems are:
+            - [Sentry](https://sentry.io/signup/)
+            - [Crashlytics](https://firebase.google.com/products/crashlytics)
+            - [Bugsnag](https://www.bugsnag.com/)
+        </Callout>
+    </Checkbox>
+
+    <Checkbox title="Add a license screen" cb_id="license_screen">
+    A lot of licenses of third party code legally requires you to show the license or attribution to the end user.
+    </Checkbox>
+
+    <Checkbox title="Add an imprint" cb_id="imprint"/>
+    <Checkbox title="Add privacy policy" cb_id="privacy_policy">
+        - Even though not every app collects user data it's a good practice to include a privacy policy to state this.
+        - Google Play and Apples App Store require you to have this.
+    </Checkbox>
+
+    <Checkbox title="Show version number in 'about app' screen" cb_id="version_number"/>
+    <Checkbox title="Provide an easy to use option to let the user share this app with other users" cb_id="app_share"/>
+    <Checkbox title="Use the localization mechanism" cb_id="localization">
+        This makes it easier to change texts your app even if you're not planning on shipping it for multiple languages
+    </Checkbox>
+</CheckList>

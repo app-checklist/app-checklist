@@ -5,6 +5,10 @@ export default function Checkbox({
     title = '',
     cb_id = 'id1',
  }) {
+    let styles = {
+        marginTop: '16px',
+        marginBottom: '16px',
+      };
     return <div>
         <div class="flex items-start">
             <input 
@@ -15,12 +19,14 @@ export default function Checkbox({
                 />
             <label for={cb_id}>
             <span class="font-semibold text-lg">{title}</span>
-            <details>
-                <summary><span class="text-gray-600">More</span></summary>
-                {children}
-            </details>
+            {children != null &&
+                <details>
+                    <summary><span class="text-gray-600">More</span></summary>
+                    {children}
+                </details>
+            }
             </label>
         </div>
-        <hr/>
+        <hr style={styles}/>
     </div>
 }

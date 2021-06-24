@@ -1,11 +1,13 @@
 import Callout from 'nextra-theme-docs/callout'
+import CheckList from '../../components/CheckList'
+import Checkbox from '../../components/Checkbox'
 
 # Login
 
-<Callout emoji="⚠️">
-  Apple requires you to have an Apple Login as an Identity Provider, if you also have Facebook, Google or others listed.
-</Callout>
+Apple requires you to have an Apple Login as an Identity Provider, if you also have Facebook, Google or others listed.
 
-- [ ] Provide a Login option
-- [ ] Forgot password option
-- [ ] Provide an option to register
+<CheckList>
+    <Checkbox title="Provide a Login option" cb_id="login"/>
+    <Checkbox title="Reset/Forgot password option" cb_id="reset"/>
+    <Checkbox title="Provide an option to register" cb_id="register"/>
+</CheckList>
