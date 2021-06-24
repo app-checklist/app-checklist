@@ -12,6 +12,7 @@ Not having access to the target account makes the development more error prone a
 - dev and prod environment diverge -> loss of quality
 - bugs can't be reliably reproduced
 - release process can't be tested, see [the release process](/release) on why that's bad.
+- Enterprise and App Store Apps can't have an identical Bundle ID, so you can't easily switch between those two.
 
 ### [App Store Connect](https://appstoreconnect.apple.com) & [Apple Developer Portal](https://developer.apple.com/)
 
